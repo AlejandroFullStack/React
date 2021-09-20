@@ -53,7 +53,7 @@ class App extends Component {
             <div className="card-footer">
               <button
                 className="btn btn-danger"
-                onClick={this.removeTodo.bind(i)}
+                onClick={this.removeTodo.bind(this,i)}
                 >
                   Delete
               </button>
