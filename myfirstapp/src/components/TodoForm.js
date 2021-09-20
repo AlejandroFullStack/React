@@ -50,12 +50,12 @@ class TodoForm extends Component{
                         <div className="form-group">
                             <input 
                             type="text"
-                            name="responsable"
-                            id = "responsable"
+                            name="responsible"
+                            id = "responsible"
                             
                             onChange= { this.handleInput}
                             className = "form-control"
-                            placeholder ="Responsable"
+                            placeholder ="Responsible"
                             
                             />
                         </div>
