@@ -26,11 +26,13 @@ class App extends Component {
   }
 
   removeTodo(index){
-    this.setState({
-      todos: this.state.todos.filter((e,i) =>{ 
-        return i !== index
-      })
-    })    
+    if (window.confirm('Are you sure you want delete it?')) {
+      this.setState({
+        todos: this.state.todos.filter((e,i) =>{ 
+          return i !== index
+        })
+      })    
+    }
   }
   render () {
     const  todos = this.state.todos.map((todo,i) => {
