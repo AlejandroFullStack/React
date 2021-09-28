@@ -83,13 +83,9 @@ class App extends Component {
                   {todos}
                 </div>
                 <br /> 
-                
               </div>
             </div>
-            
           </div>
-
-          
       </div>
     );
   }
